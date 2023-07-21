@@ -6,6 +6,7 @@ services:
     volumes:
         - ./log:/app/log
     environment:
+      TZ: Asia/Tokyo
       BOT_TOKEN: 
     networks:
       app_net:
